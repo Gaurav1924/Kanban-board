@@ -79,3 +79,72 @@
 .remove-btn:hover {
     background-color: #4BB543;
 }
+
+.priority-color {
+    height: 48px;
+    width: 80px;
+}
+
+
+.active {
+    border: 5px solid lightsalmon;
+}
+
+.modal-cont {
+    height: 50vh;
+    width: 45vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.textArea-cont {
+    width: 75%;
+    outline: none;
+    height: 100%;
+    background-color: #dfe4ea;
+    resize: none;
+    border: none;
+    font-size: 32px;
+}
+
+.priority-colors-container {
+    background-color: #4b4b4b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.ticket-cont {
+    height: 192px;
+    width: 200px;
+    background-color: coral;
+    position: relative;
+}
+
+.ticket-color {
+    height: 16px;
+}
+
+.ticket-id {
+    height: 32px;
+    background-color: yellow;
+}
+
+.ticket-lock {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
