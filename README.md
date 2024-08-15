@@ -2,8 +2,11 @@ Welcome to the Kanban Board Application! This project provides a versatile Kanba
 
 Features
 **Task Management:** Create new tasks with a modal that includes color selection and description input.
+
 **Edit Task:** Toggle between editing and viewing modes with a lock/unlock icon on each task card.
+
 **Remove Task:** Activate removal mode to delete tasks by clicking on them.
+
 **Filter by Color:** Click color icons to filter tasks based on their assigned color.
 
 Dynamic Interaction:
