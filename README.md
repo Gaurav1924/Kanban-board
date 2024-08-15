@@ -1,6 +1,6 @@
 Welcome to the Kanban Board Application! This project provides a versatile Kanban board for managing tasks and notes. It features a clean interface and various interactive elements to enhance task management.
 
-Features
+**Features
 
 **Task Management:** Create new tasks with a modal that includes color selection and description input.
 
@@ -10,14 +10,14 @@ Features
 
 **Filter by Color:** Click color icons to filter tasks based on their assigned color.
 
-Dynamic Interaction:
+**Dynamic Interaction:
 
 Add tasks via the Add button.
 Edit task descriptions using the lock/unlock icon.
 Remove tasks by activating the remove button and clicking on tasks.
 Filter tasks by color using the top color icons.
 
-Design Decisions
+**Design Decisions
 
 **Color Coding:** Tasks are color-coded with a top strip to facilitate visual categorization and filtering.
 
@@ -25,7 +25,7 @@ Design Decisions
 
 **Removal Mode:** The +/- button toggles the removal mode to avoid accidental deletions.
 
-Challenges and Solutions
+**Challenges and Solutions
 **Managing State Across Components:** Used global variables and JavaScript functions to manage and synchronize states (e.g., editing, removal) across various components.
 
 **Event Handling:** Implemented event listeners for handling user interactions such as clicks and key presses, ensuring correct responses and state management.
